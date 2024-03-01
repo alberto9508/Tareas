@@ -1,0 +1,36 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*estilos para el contenedor de las cuatro cajas*/
+.contenedor{
+    width:  300px;
+    margin: 100px auto;
+    border: 5px solid black;
+
+   
+}
+.caja{
+    width: 100px;
+    line-height: 100px;
+    color:#10382c;
+    text-align: center;
+
+}
+#caja1{
+    background-color: blueviolet;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+#caja2{
+    background-color:blue;
+}
+#caja3{
+    background-color: rgb(49, 226, 43);
+}
+#caja4{
+    background-color: rgb(208, 226, 43);
+}

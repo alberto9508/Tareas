@@ -1,0 +1,38 @@
+body { /* selector universal*/
+   margin: 0;
+   padding: 0;
+
+}
+body { /* selector de tipo, elemento, etiqueta*/
+    background-color:antiquewhite;
+}
+
+
+
+p,h1,h2{ /*Pselecciona los elementos p*/
+
+    color: blue;
+}
+
+ /*section{
+    text-align:right;
+} */
+
+.imagenes{
+    text-align: center;
+}
+
+table{
+    border: 4px solid darkred;
+    border-spacing: 15px; /* espacio entre celdas;*/
+   /* border-collapse: collapse;*/
+}
+th, td{
+    border: 2px dashed red;
+    background-color:azure;
+    
+}
+td{
+    background-color: beige;
+    text-align: center;
+}
